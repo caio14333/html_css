@@ -3,7 +3,7 @@ body {
 }
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
 }
@@ -23,7 +23,7 @@ body {
 }
 
 .lista li a {
-    color: black;
+    color: rgb(3, 3, 3);
     text-decoration: none;
     padding: 5px 10px;
     transition: ease;
@@ -32,6 +32,18 @@ body {
 
 }
     .lista li a:hover {
-        background-color: blue;
+        background-color: rgba(0, 0, 190, 0.395);
         border-radius: 10px;
     }
+.paragrafos {
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: brown;
+
+
+
+
+
+}
