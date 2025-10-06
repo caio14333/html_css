@@ -1,11 +1,13 @@
 body {
-    margin: 10px;
+    margin: 0px;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    background-color: #d35555;
+    border: #d35555;
+    animation: pngtree-3d-stereo-love-heart-for-valentines-day-png-image_15238009 2s ease-in-out 1s infinite alternate forwards;
 }
 .lista {
     display: flex;
@@ -26,13 +28,13 @@ body {
     color: rgb(3, 3, 3);
     text-decoration: none;
     padding: 5px 10px;
-    transition: ease;
+    transition: ease-out;
 
 
 
 }
     .lista li a:hover {
-        background-color: rgba(0, 0, 190, 0.395);
+        background-color: rgba(184, 7, 7, 0.395);
         border-radius: 10px;
     }
 .paragrafos {
@@ -40,10 +42,13 @@ body {
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
-    color: brown;
+    color: #a52a2a;
 
-
-
-
-
+}
+.paragrafo1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+    
 }
